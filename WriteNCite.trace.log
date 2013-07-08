@@ -1,0 +1,523 @@
+7/8/2013 - 15:21:49: Initializing Word Add-In.
+7/8/2013 - 15:21:49: Executing Path (Reflection): file:\C:\Program Files\RefWorks-COS\Write-N-Cite
+7/8/2013 - 15:21:49: Executing Path (Environment Class): C:\Program Files\Git
+7/8/2013 - 15:21:49: Tried to get process by name "winword"
+7/8/2013 - 15:21:49: Setting startup options
+7/8/2013 - 15:21:49: Finished setting startup options
+7/8/2013 - 15:21:49: Checking if user is logged in...
+7/8/2013 - 15:21:50: Entered static constructor for Gateway class
+7/8/2013 - 15:21:50: Getting config paths...
+7/8/2013 - 15:21:50: Discovering JVM
+7/8/2013 - 15:21:50: Discover JVM (managed) called...
+7/8/2013 - 15:21:50: JVM Dir (managed) is: c:\program files\java\jre6\bin\client\jvm.dll
+7/8/2013 - 15:21:50: Getting executing assembly name
+7/8/2013 - 15:21:50: Getting classpath root.
+7/8/2013 - 15:21:50: Classpath root is: C:\Program Files\RefWorks-COS\Write-N-Cite\
+7/8/2013 - 15:21:50: Building JAR Class path....
+7/8/2013 - 15:21:50: Jar class path: -Djava.class.path=C:\Program Files\RefWorks-COS\Write-N-Cite\bibliotech-core-0.0.1-SNAPSHOT.jar;C:\Program Files\RefWorks-COS\Write-N-Cite\commons-codec-1.6.jar;C:\Program Files\RefWorks-COS\Write-N-Cite\commons-lang-2.6.jar;C:\Program Files\RefWorks-COS\Write-N-Cite\commons-logging-1.1.1.jar;C:\Program Files\RefWorks-COS\Write-N-Cite\formatter-0.0.1-SNAPSHOT.jar;C:\Program Files\RefWorks-COS\Write-N-Cite\httpclient-4.2.1.jar;C:\Program Files\RefWorks-COS\Write-N-Cite\httpcore-4.2.1.jar;C:\Program Files\RefWorks-COS\Write-N-Cite\icu4j-4.8.jar;C:\Program Files\RefWorks-COS\Write-N-Cite\jdom2-2.0.3.jar;C:\Program Files\RefWorks-COS\Write-N-Cite\rwutil-0.0.1-SNAPSHOT.jar;C:\Program Files\RefWorks-COS\Write-N-Cite\sqlite4java-0.213.jar;
+7/8/2013 - 15:21:50: Instantiating JBridge()
+7/8/2013 - 15:21:50: LogPath: -DlogFile=C:\Documents and Settings\OUCS-LR1-10-TRA\Local Settings\Application Data\wnc.log
+7/8/2013 - 15:21:50: DbPath: -DdbLocation=C:\Documents and Settings\OUCS-LR1-10-TRA\Local Settings\Application Data\wnc.db
+7/8/2013 - 15:21:50: BiblioConfigPath: -Dbibliotech.config.path=C:\Documents and Settings\OUCS-LR1-10-TRA\Local Settings\Application Data\wnc.properties
+7/8/2013 - 15:21:50: jvmRuntimePath: c:\program files\java\jre6\bin\client\jvm.dll
+7/8/2013 - 15:21:50: classPath: -Djava.class.path=C:\Program Files\RefWorks-COS\Write-N-Cite\bibliotech-core-0.0.1-SNAPSHOT.jar;C:\Program Files\RefWorks-COS\Write-N-Cite\commons-codec-1.6.jar;C:\Program Files\RefWorks-COS\Write-N-Cite\commons-lang-2.6.jar;C:\Program Files\RefWorks-COS\Write-N-Cite\commons-logging-1.1.1.jar;C:\Program Files\RefWorks-COS\Write-N-Cite\formatter-0.0.1-SNAPSHOT.jar;C:\Program Files\RefWorks-COS\Write-N-Cite\httpclient-4.2.1.jar;C:\Program Files\RefWorks-COS\Write-N-Cite\httpcore-4.2.1.jar;C:\Program Files\RefWorks-COS\Write-N-Cite\icu4j-4.8.jar;C:\Program Files\RefWorks-COS\Write-N-Cite\jdom2-2.0.3.jar;C:\Program Files\RefWorks-COS\Write-N-Cite\rwutil-0.0.1-SNAPSHOT.jar;C:\Program Files\RefWorks-COS\Write-N-Cite\sqlite4java-0.213.jar;
+7/8/2013 - 15:21:50: DatabaseFolderPath: -Dbibliotech.data.path=C:\Documents and Settings\OUCS-LR1-10-TRA\Local Settings\Application Data
+7/8/2013 - 15:21:50: AddInMode: -Dbibliotech.addin.mode=wnc
+7/8/2013 - 15:21:50: JBridge was instantiated.
+7/8/2013 - 15:21:50: Initialize() method has started in JavaBridge
+7/8/2013 - 15:21:50: Getting current thread...
+7/8/2013 - 15:21:50: Calling CliToNativeString() on Java Class Path: -Djava.class.path=C:\Program Files\RefWorks-COS\Write-N-Cite\bibliotech-core-0.0.1-SNAPSHOT.jar;C:\Program Files\RefWorks-COS\Write-N-Cite\commons-codec-1.6.jar;C:\Program Files\RefWorks-COS\Write-N-Cite\commons-lang-2.6.jar;C:\Program Files\RefWorks-COS\Write-N-Cite\commons-logging-1.1.1.jar;C:\Program Files\RefWorks-COS\Write-N-Cite\formatter-0.0.1-SNAPSHOT.jar;C:\Program Files\RefWorks-COS\Write-N-Cite\httpclient-4.2.1.jar;C:\Program Files\RefWorks-COS\Write-N-Cite\httpcore-4.2.1.jar;C:\Program Files\RefWorks-COS\Write-N-Cite\icu4j-4.8.jar;C:\Program Files\RefWorks-COS\Write-N-Cite\jdom2-2.0.3.jar;C:\Program Files\RefWorks-COS\Write-N-Cite\rwutil-0.0.1-SNAPSHOT.jar;C:\Program Files\RefWorks-COS\Write-N-Cite\sqlite4java-0.213.jar;
+7/8/2013 - 15:21:50: Calling CliToNativeString() on DatabaseFolderPath: -Dbibliotech.data.path=C:\Documents and Settings\OUCS-LR1-10-TRA\Local Settings\Application Data
+7/8/2013 - 15:21:50: Calling CliToNativeString() on AddInMode: -Dbibliotech.addin.mode=wnc
+7/8/2013 - 15:21:50: Checking if JvmRuntimePath is null...
+7/8/2013 - 15:21:50: Checking if JvmRuntimePath is empty....
+7/8/2013 - 15:21:50: Loading  java library now....
+7/8/2013 - 15:21:50: Creating/instantiating JVM...
+7/8/2013 - 15:21:50: Calling CreateJvm()
+7/8/2013 - 15:21:50: Attempting to instantiate JVM...
+7/8/2013 - 15:21:50: Created VM
+7/8/2013 - 15:21:50: Initialize() method has finished in JavaBridge
+7/8/2013 - 15:21:50: Is from threadpool: False
+7/8/2013 - 15:21:50: Is background thread: True
+7/8/2013 - 15:21:50: Id: 1
+7/8/2013 - 15:21:50: Name: VSTA_Main
+7/8/2013 - 15:21:50: Java Version: 65542
+7/8/2013 - 15:21:50: Creating logger.... 
+7/8/2013 - 15:21:50: Creating Java JNI wrapper classes/objects....
+7/8/2013 - 15:21:50: Logging info about config paths..
+7/8/2013 - 15:21:50: LogPath: -DlogFile=C:\Documents and Settings\OUCS-LR1-10-TRA\Local Settings\Application Data\wnc.log: Startup : INFO
+
+7/8/2013 - 15:21:50: LogPath: -DlogFile=C:\Documents and Settings\OUCS-LR1-10-TRA\Local Settings\Application Data\wnc.log
+7/8/2013 - 15:21:50: Is from threadpool: False
+7/8/2013 - 15:21:50: Is background thread: True
+7/8/2013 - 15:21:50: Id: 1
+7/8/2013 - 15:21:50: Name: VSTA_Main
+7/8/2013 - 15:21:50: Is from threadpool: False
+7/8/2013 - 15:21:50: Is background thread: True
+7/8/2013 - 15:21:50: Id: 1
+7/8/2013 - 15:21:50: Name: VSTA_Main
+7/8/2013 - 15:21:50: DbPath: -DdbLocation=C:\Documents and Settings\OUCS-LR1-10-TRA\Local Settings\Application Data\wnc.db: Startup : INFO
+
+7/8/2013 - 15:21:50: DbPath: -DdbLocation=C:\Documents and Settings\OUCS-LR1-10-TRA\Local Settings\Application Data\wnc.db
+7/8/2013 - 15:21:50: Is from threadpool: False
+7/8/2013 - 15:21:50: Is background thread: True
+7/8/2013 - 15:21:50: Id: 1
+7/8/2013 - 15:21:50: Name: VSTA_Main
+7/8/2013 - 15:21:50: Is from threadpool: False
+7/8/2013 - 15:21:50: Is background thread: True
+7/8/2013 - 15:21:50: Id: 1
+7/8/2013 - 15:21:50: Name: VSTA_Main
+7/8/2013 - 15:21:50: ConfigPath: -Dbibliotech.config.path=C:\Documents and Settings\OUCS-LR1-10-TRA\Local Settings\Application Data\wnc.properties: Startup : INFO
+
+7/8/2013 - 15:21:50: ConfigPath: -Dbibliotech.config.path=C:\Documents and Settings\OUCS-LR1-10-TRA\Local Settings\Application Data\wnc.properties
+7/8/2013 - 15:21:50: Is from threadpool: False
+7/8/2013 - 15:21:50: Is background thread: True
+7/8/2013 - 15:21:50: Id: 1
+7/8/2013 - 15:21:50: Name: VSTA_Main
+7/8/2013 - 15:21:50: Is from threadpool: False
+7/8/2013 - 15:21:50: Is background thread: True
+7/8/2013 - 15:21:50: Id: 1
+7/8/2013 - 15:21:50: Name: VSTA_Main
+7/8/2013 - 15:21:50: JvmPath: c:\program files\java\jre6\bin\client\jvm.dll: Startup : INFO
+
+7/8/2013 - 15:21:50: JvmPath: c:\program files\java\jre6\bin\client\jvm.dll
+7/8/2013 - 15:21:50: Is from threadpool: False
+7/8/2013 - 15:21:50: Is background thread: True
+7/8/2013 - 15:21:50: Id: 1
+7/8/2013 - 15:21:50: Name: VSTA_Main
+7/8/2013 - 15:21:50: Is from threadpool: False
+7/8/2013 - 15:21:50: Is background thread: True
+7/8/2013 - 15:21:50: Id: 1
+7/8/2013 - 15:21:50: Name: VSTA_Main
+7/8/2013 - 15:21:50: ClassPathRoot: C:\Program Files\RefWorks-COS\Write-N-Cite\: Startup : INFO
+
+7/8/2013 - 15:21:50: ClassPathRoot: C:\Program Files\RefWorks-COS\Write-N-Cite\
+7/8/2013 - 15:21:50: Is from threadpool: False
+7/8/2013 - 15:21:50: Is background thread: True
+7/8/2013 - 15:21:50: Id: 1
+7/8/2013 - 15:21:50: Name: VSTA_Main
+7/8/2013 - 15:21:50: Is from threadpool: False
+7/8/2013 - 15:21:50: Is background thread: True
+7/8/2013 - 15:21:50: Id: 1
+7/8/2013 - 15:21:50: Name: VSTA_Main
+7/8/2013 - 15:21:50: JavaClassPath: -Djava.class.path=C:\Program Files\RefWorks-COS\Write-N-Cite\bibliotech-core-0.0.1-SNAPSHOT.jar;C:\Program Files\RefWorks-COS\Write-N-Cite\commons-codec-1.6.jar;C:\Program Files\RefWorks-COS\Write-N-Cite\commons-lang-2.6.jar;C:\Program Files\RefWorks-COS\Write-N-Cite\commons-logging-1.1.1.jar;C:\Program Files\RefWorks-COS\Write-N-Cite\formatter-0.0.1-SNAPSHOT.jar;C:\Program Files\RefWorks-COS\Write-N-Cite\httpclient-4.2.1.jar;C:\Program Files\RefWorks-COS\Write-N-Cite\httpcore-4.2.1.jar;C:\Program Files\RefWorks-COS\Write-N-Cite\icu4j-4.8.jar;C:\Program Files\RefWorks-COS\Write-N-Cite\jdom2-2.0.3.jar;C:\Program Files\RefWorks-COS\Write-N-Cite\rwutil-0.0.1-SNAPSHOT.jar;C:\Program Files\RefWorks-COS\Write-N-Cite\sqlite4java-0.213.jar;: Startup : INFO
+
+7/8/2013 - 15:21:50: JavaClassPath: -Djava.class.path=C:\Program Files\RefWorks-COS\Write-N-Cite\bibliotech-core-0.0.1-SNAPSHOT.jar;C:\Program Files\RefWorks-COS\Write-N-Cite\commons-codec-1.6.jar;C:\Program Files\RefWorks-COS\Write-N-Cite\commons-lang-2.6.jar;C:\Program Files\RefWorks-COS\Write-N-Cite\commons-logging-1.1.1.jar;C:\Program Files\RefWorks-COS\Write-N-Cite\formatter-0.0.1-SNAPSHOT.jar;C:\Program Files\RefWorks-COS\Write-N-Cite\httpclient-4.2.1.jar;C:\Program Files\RefWorks-COS\Write-N-Cite\httpcore-4.2.1.jar;C:\Program Files\RefWorks-COS\Write-N-Cite\icu4j-4.8.jar;C:\Program Files\RefWorks-COS\Write-N-Cite\jdom2-2.0.3.jar;C:\Program Files\RefWorks-COS\Write-N-Cite\rwutil-0.0.1-SNAPSHOT.jar;C:\Program Files\RefWorks-COS\Write-N-Cite\sqlite4java-0.213.jar;
+7/8/2013 - 15:21:50: Is from threadpool: False
+7/8/2013 - 15:21:50: Is background thread: True
+7/8/2013 - 15:21:50: Id: 1
+7/8/2013 - 15:21:50: Name: VSTA_Main
+7/8/2013 - 15:21:50: Is from threadpool: False
+7/8/2013 - 15:21:50: Is background thread: True
+7/8/2013 - 15:21:50: Id: 1
+7/8/2013 - 15:21:50: Name: VSTA_Main
+7/8/2013 - 15:21:50: Currently executing exe location: C:/Program%20Files/RefWorks-COS/Write-N-Cite/Refworks.WriteNCite.JavaGateway.DLL: Word Native : INFO
+
+7/8/2013 - 15:21:50: Currently executing exe location: C:/Program%20Files/RefWorks-COS/Write-N-Cite/Refworks.WriteNCite.JavaGateway.DLL
+7/8/2013 - 15:21:50: Is from threadpool: False
+7/8/2013 - 15:21:50: Is background thread: True
+7/8/2013 - 15:21:50: Id: 1
+7/8/2013 - 15:21:50: Name: VSTA_Main
+7/8/2013 - 15:21:50: Is from threadpool: False
+7/8/2013 - 15:21:50: Is background thread: True
+7/8/2013 - 15:21:50: Id: 1
+7/8/2013 - 15:21:50: Name: VSTA_Main
+7/8/2013 - 15:21:50: End of the Gateway ctor...
+7/8/2013 - 15:21:50: Is from threadpool: False
+7/8/2013 - 15:21:50: Is background thread: True
+7/8/2013 - 15:21:50: Id: 1
+7/8/2013 - 15:21:50: Name: VSTA_Main
+7/8/2013 - 15:21:50: Looking for the following class: com/refworks/bibliotech/LoginGateway
+7/8/2013 - 15:21:50: Found class
+7/8/2013 - 15:21:50: Trying to get getUserToken
+7/8/2013 - 15:21:50: Got it
+7/8/2013 - 15:21:50: Is from threadpool: False
+7/8/2013 - 15:21:50: Is background thread: True
+7/8/2013 - 15:21:50: Id: 1
+7/8/2013 - 15:21:50: Name: VSTA_Main
+7/8/2013 - 15:21:50: JavaGateway.Login.GetUserToken - 0.05 seconds: Timings : FINEST
+
+7/8/2013 - 15:21:50: JavaGateway.Login.GetUserToken - 0.05 seconds
+7/8/2013 - 15:21:50: Is from threadpool: False
+7/8/2013 - 15:21:50: Is background thread: True
+7/8/2013 - 15:21:50: Id: 1
+7/8/2013 - 15:21:50: Name: VSTA_Main
+7/8/2013 - 15:21:50: Is from threadpool: False
+7/8/2013 - 15:21:50: Is background thread: True
+7/8/2013 - 15:21:50: Id: 1
+7/8/2013 - 15:21:50: Name: VSTA_Main
+7/8/2013 - 15:21:50: Is from threadpool: False
+7/8/2013 - 15:21:50: Is background thread: True
+7/8/2013 - 15:21:50: Id: 1
+7/8/2013 - 15:21:50: Name: VSTA_Main
+7/8/2013 - 15:21:50: Looking for the following class: com/refworks/bibliotech/LoginGateway
+7/8/2013 - 15:21:50: Found class
+7/8/2013 - 15:21:50: Trying to get getUserId
+7/8/2013 - 15:21:50: Got it
+7/8/2013 - 15:21:50: Is from threadpool: False
+7/8/2013 - 15:21:50: Is background thread: True
+7/8/2013 - 15:21:50: Id: 1
+7/8/2013 - 15:21:50: Name: VSTA_Main
+7/8/2013 - 15:21:50: JavaGateway.Login.GetUserId - 0.00 seconds: Timings : FINEST
+
+7/8/2013 - 15:21:50: JavaGateway.Login.GetUserId - 0.00 seconds
+7/8/2013 - 15:21:50: Is from threadpool: False
+7/8/2013 - 15:21:50: Is background thread: True
+7/8/2013 - 15:21:50: Id: 1
+7/8/2013 - 15:21:50: Name: VSTA_Main
+7/8/2013 - 15:21:50: Is from threadpool: False
+7/8/2013 - 15:21:50: Is background thread: True
+7/8/2013 - 15:21:50: Id: 1
+7/8/2013 - 15:21:50: Name: VSTA_Main
+7/8/2013 - 15:21:50: Is from threadpool: False
+7/8/2013 - 15:21:50: Is background thread: True
+7/8/2013 - 15:21:50: Id: 1
+7/8/2013 - 15:21:50: Name: VSTA_Main
+7/8/2013 - 15:21:50: Looking for the following class: com/refworks/bibliotech/LoginGateway
+7/8/2013 - 15:21:50: Found class
+7/8/2013 - 15:21:50: Trying to get getSubscriberId
+7/8/2013 - 15:21:50: Got it
+7/8/2013 - 15:21:50: Is from threadpool: False
+7/8/2013 - 15:21:50: Is background thread: True
+7/8/2013 - 15:21:50: Id: 1
+7/8/2013 - 15:21:50: Name: VSTA_Main
+7/8/2013 - 15:21:50: JavaGateway.Login.GetSubscriberId - 0.00 seconds: Timings : FINEST
+
+7/8/2013 - 15:21:50: JavaGateway.Login.GetSubscriberId - 0.00 seconds
+7/8/2013 - 15:21:50: Is from threadpool: False
+7/8/2013 - 15:21:50: Is background thread: True
+7/8/2013 - 15:21:50: Id: 1
+7/8/2013 - 15:21:50: Name: VSTA_Main
+7/8/2013 - 15:21:50: Is from threadpool: False
+7/8/2013 - 15:21:50: Is background thread: True
+7/8/2013 - 15:21:50: Id: 1
+7/8/2013 - 15:21:50: Name: VSTA_Main
+7/8/2013 - 15:21:50: User is not logged in.
+7/8/2013 - 15:21:50: Checking if user is logged in...
+7/8/2013 - 15:21:50: Is from threadpool: False
+7/8/2013 - 15:21:50: Is background thread: True
+7/8/2013 - 15:21:50: Id: 1
+7/8/2013 - 15:21:50: Name: VSTA_Main
+7/8/2013 - 15:21:50: Looking for the following class: com/refworks/bibliotech/LoginGateway
+7/8/2013 - 15:21:50: Found class
+7/8/2013 - 15:21:50: Trying to get getUserToken
+7/8/2013 - 15:21:50: Got it
+7/8/2013 - 15:21:50: Is from threadpool: False
+7/8/2013 - 15:21:50: Is background thread: True
+7/8/2013 - 15:21:50: Id: 1
+7/8/2013 - 15:21:50: Name: VSTA_Main
+7/8/2013 - 15:21:50: JavaGateway.Login.GetUserToken - 0.00 seconds: Timings : FINEST
+
+7/8/2013 - 15:21:50: JavaGateway.Login.GetUserToken - 0.00 seconds
+7/8/2013 - 15:21:50: Is from threadpool: False
+7/8/2013 - 15:21:50: Is background thread: True
+7/8/2013 - 15:21:50: Id: 1
+7/8/2013 - 15:21:50: Name: VSTA_Main
+7/8/2013 - 15:21:50: Is from threadpool: False
+7/8/2013 - 15:21:50: Is background thread: True
+7/8/2013 - 15:21:50: Id: 1
+7/8/2013 - 15:21:50: Name: VSTA_Main
+7/8/2013 - 15:21:50: Is from threadpool: False
+7/8/2013 - 15:21:50: Is background thread: True
+7/8/2013 - 15:21:50: Id: 1
+7/8/2013 - 15:21:50: Name: VSTA_Main
+7/8/2013 - 15:21:50: Looking for the following class: com/refworks/bibliotech/LoginGateway
+7/8/2013 - 15:21:50: Found class
+7/8/2013 - 15:21:50: Trying to get getUserId
+7/8/2013 - 15:21:50: Got it
+7/8/2013 - 15:21:50: Is from threadpool: False
+7/8/2013 - 15:21:50: Is background thread: True
+7/8/2013 - 15:21:50: Id: 1
+7/8/2013 - 15:21:50: Name: VSTA_Main
+7/8/2013 - 15:21:50: JavaGateway.Login.GetUserId - 0.00 seconds: Timings : FINEST
+
+7/8/2013 - 15:21:50: JavaGateway.Login.GetUserId - 0.00 seconds
+7/8/2013 - 15:21:50: Is from threadpool: False
+7/8/2013 - 15:21:50: Is background thread: True
+7/8/2013 - 15:21:50: Id: 1
+7/8/2013 - 15:21:50: Name: VSTA_Main
+7/8/2013 - 15:21:50: Is from threadpool: False
+7/8/2013 - 15:21:50: Is background thread: True
+7/8/2013 - 15:21:50: Id: 1
+7/8/2013 - 15:21:50: Name: VSTA_Main
+7/8/2013 - 15:21:50: Is from threadpool: False
+7/8/2013 - 15:21:50: Is background thread: True
+7/8/2013 - 15:21:50: Id: 1
+7/8/2013 - 15:21:50: Name: VSTA_Main
+7/8/2013 - 15:21:50: Looking for the following class: com/refworks/bibliotech/LoginGateway
+7/8/2013 - 15:21:50: Found class
+7/8/2013 - 15:21:50: Trying to get getSubscriberId
+7/8/2013 - 15:21:50: Got it
+7/8/2013 - 15:21:50: Is from threadpool: False
+7/8/2013 - 15:21:50: Is background thread: True
+7/8/2013 - 15:21:50: Id: 1
+7/8/2013 - 15:21:50: Name: VSTA_Main
+7/8/2013 - 15:21:50: JavaGateway.Login.GetSubscriberId - 0.00 seconds: Timings : FINEST
+
+7/8/2013 - 15:21:50: JavaGateway.Login.GetSubscriberId - 0.00 seconds
+7/8/2013 - 15:21:50: Is from threadpool: False
+7/8/2013 - 15:21:50: Is background thread: True
+7/8/2013 - 15:21:50: Id: 1
+7/8/2013 - 15:21:50: Name: VSTA_Main
+7/8/2013 - 15:21:50: Is from threadpool: False
+7/8/2013 - 15:21:50: Is background thread: True
+7/8/2013 - 15:21:50: Id: 1
+7/8/2013 - 15:21:50: Name: VSTA_Main
+7/8/2013 - 15:21:50: User is not logged in.
+7/8/2013 - 15:21:52: Checking if user is logged in...
+7/8/2013 - 15:21:52: Is from threadpool: False
+7/8/2013 - 15:21:52: Is background thread: True
+7/8/2013 - 15:21:52: Id: 1
+7/8/2013 - 15:21:52: Name: VSTA_Main
+7/8/2013 - 15:21:52: Looking for the following class: com/refworks/bibliotech/LoginGateway
+7/8/2013 - 15:21:52: Found class
+7/8/2013 - 15:21:52: Trying to get getUserToken
+7/8/2013 - 15:21:52: Got it
+7/8/2013 - 15:21:52: Is from threadpool: False
+7/8/2013 - 15:21:52: Is background thread: True
+7/8/2013 - 15:21:52: Id: 1
+7/8/2013 - 15:21:52: Name: VSTA_Main
+7/8/2013 - 15:21:52: JavaGateway.Login.GetUserToken - 0.00 seconds: Timings : FINEST
+
+7/8/2013 - 15:21:52: JavaGateway.Login.GetUserToken - 0.00 seconds
+7/8/2013 - 15:21:52: Is from threadpool: False
+7/8/2013 - 15:21:52: Is background thread: True
+7/8/2013 - 15:21:52: Id: 1
+7/8/2013 - 15:21:52: Name: VSTA_Main
+7/8/2013 - 15:21:52: Is from threadpool: False
+7/8/2013 - 15:21:52: Is background thread: True
+7/8/2013 - 15:21:52: Id: 1
+7/8/2013 - 15:21:52: Name: VSTA_Main
+7/8/2013 - 15:21:52: Is from threadpool: False
+7/8/2013 - 15:21:52: Is background thread: True
+7/8/2013 - 15:21:52: Id: 1
+7/8/2013 - 15:21:52: Name: VSTA_Main
+7/8/2013 - 15:21:52: Looking for the following class: com/refworks/bibliotech/LoginGateway
+7/8/2013 - 15:21:52: Found class
+7/8/2013 - 15:21:52: Trying to get getUserId
+7/8/2013 - 15:21:52: Got it
+7/8/2013 - 15:21:52: Is from threadpool: False
+7/8/2013 - 15:21:52: Is background thread: True
+7/8/2013 - 15:21:52: Id: 1
+7/8/2013 - 15:21:52: Name: VSTA_Main
+7/8/2013 - 15:21:52: JavaGateway.Login.GetUserId - 0.00 seconds: Timings : FINEST
+
+7/8/2013 - 15:21:52: JavaGateway.Login.GetUserId - 0.00 seconds
+7/8/2013 - 15:21:52: Is from threadpool: False
+7/8/2013 - 15:21:52: Is background thread: True
+7/8/2013 - 15:21:52: Id: 1
+7/8/2013 - 15:21:52: Name: VSTA_Main
+7/8/2013 - 15:21:52: Is from threadpool: False
+7/8/2013 - 15:21:52: Is background thread: True
+7/8/2013 - 15:21:52: Id: 1
+7/8/2013 - 15:21:52: Name: VSTA_Main
+7/8/2013 - 15:21:52: Is from threadpool: False
+7/8/2013 - 15:21:52: Is background thread: True
+7/8/2013 - 15:21:52: Id: 1
+7/8/2013 - 15:21:52: Name: VSTA_Main
+7/8/2013 - 15:21:52: Looking for the following class: com/refworks/bibliotech/LoginGateway
+7/8/2013 - 15:21:52: Found class
+7/8/2013 - 15:21:52: Trying to get getSubscriberId
+7/8/2013 - 15:21:52: Got it
+7/8/2013 - 15:21:52: Is from threadpool: False
+7/8/2013 - 15:21:52: Is background thread: True
+7/8/2013 - 15:21:52: Id: 1
+7/8/2013 - 15:21:52: Name: VSTA_Main
+7/8/2013 - 15:21:52: JavaGateway.Login.GetSubscriberId - 0.00 seconds: Timings : FINEST
+
+7/8/2013 - 15:21:52: JavaGateway.Login.GetSubscriberId - 0.00 seconds
+7/8/2013 - 15:21:52: Is from threadpool: False
+7/8/2013 - 15:21:52: Is background thread: True
+7/8/2013 - 15:21:52: Id: 1
+7/8/2013 - 15:21:52: Name: VSTA_Main
+7/8/2013 - 15:21:52: Is from threadpool: False
+7/8/2013 - 15:21:52: Is background thread: True
+7/8/2013 - 15:21:52: Id: 1
+7/8/2013 - 15:21:52: Name: VSTA_Main
+7/8/2013 - 15:21:52: User is not logged in.
+7/8/2013 - 15:21:52: Word Version: 2010
+7/8/2013 - 15:21:52: Word version: Word2010 - Bitness = 
+7/8/2013 - 15:21:52: Checking if user is logged in...
+7/8/2013 - 15:21:52: Is from threadpool: False
+7/8/2013 - 15:21:52: Is background thread: True
+7/8/2013 - 15:21:52: Id: 1
+7/8/2013 - 15:21:52: Name: VSTA_Main
+7/8/2013 - 15:21:52: Looking for the following class: com/refworks/bibliotech/LoginGateway
+7/8/2013 - 15:21:52: Found class
+7/8/2013 - 15:21:52: Trying to get getUserToken
+7/8/2013 - 15:21:52: Got it
+7/8/2013 - 15:21:52: Is from threadpool: False
+7/8/2013 - 15:21:52: Is background thread: True
+7/8/2013 - 15:21:52: Id: 1
+7/8/2013 - 15:21:52: Name: VSTA_Main
+7/8/2013 - 15:21:52: JavaGateway.Login.GetUserToken - 0.00 seconds: Timings : FINEST
+
+7/8/2013 - 15:21:52: JavaGateway.Login.GetUserToken - 0.00 seconds
+7/8/2013 - 15:21:52: Is from threadpool: False
+7/8/2013 - 15:21:52: Is background thread: True
+7/8/2013 - 15:21:52: Id: 1
+7/8/2013 - 15:21:52: Name: VSTA_Main
+7/8/2013 - 15:21:52: Is from threadpool: False
+7/8/2013 - 15:21:52: Is background thread: True
+7/8/2013 - 15:21:52: Id: 1
+7/8/2013 - 15:21:52: Name: VSTA_Main
+7/8/2013 - 15:21:52: Is from threadpool: False
+7/8/2013 - 15:21:52: Is background thread: True
+7/8/2013 - 15:21:52: Id: 1
+7/8/2013 - 15:21:52: Name: VSTA_Main
+7/8/2013 - 15:21:52: Looking for the following class: com/refworks/bibliotech/LoginGateway
+7/8/2013 - 15:21:52: Found class
+7/8/2013 - 15:21:52: Trying to get getUserId
+7/8/2013 - 15:21:52: Got it
+7/8/2013 - 15:21:52: Is from threadpool: False
+7/8/2013 - 15:21:52: Is background thread: True
+7/8/2013 - 15:21:52: Id: 1
+7/8/2013 - 15:21:52: Name: VSTA_Main
+7/8/2013 - 15:21:52: JavaGateway.Login.GetUserId - 0.00 seconds: Timings : FINEST
+
+7/8/2013 - 15:21:52: JavaGateway.Login.GetUserId - 0.00 seconds
+7/8/2013 - 15:21:52: Is from threadpool: False
+7/8/2013 - 15:21:52: Is background thread: True
+7/8/2013 - 15:21:52: Id: 1
+7/8/2013 - 15:21:52: Name: VSTA_Main
+7/8/2013 - 15:21:52: Is from threadpool: False
+7/8/2013 - 15:21:52: Is background thread: True
+7/8/2013 - 15:21:52: Id: 1
+7/8/2013 - 15:21:52: Name: VSTA_Main
+7/8/2013 - 15:21:52: Is from threadpool: False
+7/8/2013 - 15:21:52: Is background thread: True
+7/8/2013 - 15:21:52: Id: 1
+7/8/2013 - 15:21:52: Name: VSTA_Main
+7/8/2013 - 15:21:52: Looking for the following class: com/refworks/bibliotech/LoginGateway
+7/8/2013 - 15:21:52: Found class
+7/8/2013 - 15:21:52: Trying to get getSubscriberId
+7/8/2013 - 15:21:52: Got it
+7/8/2013 - 15:21:52: Is from threadpool: False
+7/8/2013 - 15:21:52: Is background thread: True
+7/8/2013 - 15:21:52: Id: 1
+7/8/2013 - 15:21:52: Name: VSTA_Main
+7/8/2013 - 15:21:52: JavaGateway.Login.GetSubscriberId - 0.00 seconds: Timings : FINEST
+
+7/8/2013 - 15:21:52: JavaGateway.Login.GetSubscriberId - 0.00 seconds
+7/8/2013 - 15:21:52: Is from threadpool: False
+7/8/2013 - 15:21:52: Is background thread: True
+7/8/2013 - 15:21:52: Id: 1
+7/8/2013 - 15:21:52: Name: VSTA_Main
+7/8/2013 - 15:21:52: Is from threadpool: False
+7/8/2013 - 15:21:52: Is background thread: True
+7/8/2013 - 15:21:52: Id: 1
+7/8/2013 - 15:21:52: Name: VSTA_Main
+7/8/2013 - 15:21:52: User is not logged in.
+7/8/2013 - 15:21:52: OS Info: 5.1.2600.196608
+Microsoft Windows NT 5.1.2600 Service Pack 3.Net:v2.2.30729,v3.2.30729,v3.5.30729.01,v4.0.30319 Client,v4.0.30319 Full
+
+7/8/2013 - 15:21:52: Word info: Word2010
+14.0 
+7/8/2013 - 15:21:52: Is from threadpool: False
+7/8/2013 - 15:21:52: Is background thread: True
+7/8/2013 - 15:21:52: Id: 1
+7/8/2013 - 15:21:52: Name: VSTA_Main
+7/8/2013 - 15:21:52: Looking for the following class: com/refworks/bibliotech/formatter/FormatterGateway
+7/8/2013 - 15:21:52: Found class
+7/8/2013 - 15:21:52: Trying to get setRTLEmbeddingEnabled
+7/8/2013 - 15:21:52: Got it
+7/8/2013 - 15:21:52: JavaGateway.Formatter.SetRtlEmbeddingEnabled - 0.00 seconds: Timings : FINEST
+
+7/8/2013 - 15:21:52: JavaGateway.Formatter.SetRtlEmbeddingEnabled - 0.00 seconds
+7/8/2013 - 15:21:52: Is from threadpool: False
+7/8/2013 - 15:21:52: Is background thread: True
+7/8/2013 - 15:21:52: Id: 1
+7/8/2013 - 15:21:52: Name: VSTA_Main
+7/8/2013 - 15:21:52: Is from threadpool: False
+7/8/2013 - 15:21:52: Is background thread: True
+7/8/2013 - 15:21:52: Id: 1
+7/8/2013 - 15:21:52: Name: VSTA_Main
+7/8/2013 - 15:21:52: Checking if user is logged in...
+7/8/2013 - 15:21:52: Is from threadpool: False
+7/8/2013 - 15:21:52: Is background thread: True
+7/8/2013 - 15:21:52: Id: 1
+7/8/2013 - 15:21:52: Name: VSTA_Main
+7/8/2013 - 15:21:52: Looking for the following class: com/refworks/bibliotech/LoginGateway
+7/8/2013 - 15:21:52: Found class
+7/8/2013 - 15:21:52: Trying to get getUserToken
+7/8/2013 - 15:21:52: Got it
+7/8/2013 - 15:21:52: Is from threadpool: False
+7/8/2013 - 15:21:52: Is background thread: True
+7/8/2013 - 15:21:52: Id: 1
+7/8/2013 - 15:21:52: Name: VSTA_Main
+7/8/2013 - 15:21:52: JavaGateway.Login.GetUserToken - 0.00 seconds: Timings : FINEST
+
+7/8/2013 - 15:21:52: JavaGateway.Login.GetUserToken - 0.00 seconds
+7/8/2013 - 15:21:52: Is from threadpool: False
+7/8/2013 - 15:21:52: Is background thread: True
+7/8/2013 - 15:21:52: Id: 1
+7/8/2013 - 15:21:52: Name: VSTA_Main
+7/8/2013 - 15:21:52: Is from threadpool: False
+7/8/2013 - 15:21:52: Is background thread: True
+7/8/2013 - 15:21:52: Id: 1
+7/8/2013 - 15:21:52: Name: VSTA_Main
+7/8/2013 - 15:21:52: Is from threadpool: False
+7/8/2013 - 15:21:52: Is background thread: True
+7/8/2013 - 15:21:52: Id: 1
+7/8/2013 - 15:21:52: Name: VSTA_Main
+7/8/2013 - 15:21:52: Looking for the following class: com/refworks/bibliotech/LoginGateway
+7/8/2013 - 15:21:52: Found class
+7/8/2013 - 15:21:52: Trying to get getUserId
+7/8/2013 - 15:21:52: Got it
+7/8/2013 - 15:21:52: Is from threadpool: False
+7/8/2013 - 15:21:52: Is background thread: True
+7/8/2013 - 15:21:52: Id: 1
+7/8/2013 - 15:21:52: Name: VSTA_Main
+7/8/2013 - 15:21:52: JavaGateway.Login.GetUserId - 0.00 seconds: Timings : FINEST
+
+7/8/2013 - 15:21:52: JavaGateway.Login.GetUserId - 0.00 seconds
+7/8/2013 - 15:21:52: Is from threadpool: False
+7/8/2013 - 15:21:52: Is background thread: True
+7/8/2013 - 15:21:52: Id: 1
+7/8/2013 - 15:21:52: Name: VSTA_Main
+7/8/2013 - 15:21:52: Is from threadpool: False
+7/8/2013 - 15:21:52: Is background thread: True
+7/8/2013 - 15:21:52: Id: 1
+7/8/2013 - 15:21:52: Name: VSTA_Main
+7/8/2013 - 15:21:52: Is from threadpool: False
+7/8/2013 - 15:21:52: Is background thread: True
+7/8/2013 - 15:21:52: Id: 1
+7/8/2013 - 15:21:52: Name: VSTA_Main
+7/8/2013 - 15:21:52: Looking for the following class: com/refworks/bibliotech/LoginGateway
+7/8/2013 - 15:21:52: Found class
+7/8/2013 - 15:21:52: Trying to get getSubscriberId
+7/8/2013 - 15:21:52: Got it
+7/8/2013 - 15:21:52: Is from threadpool: False
+7/8/2013 - 15:21:52: Is background thread: True
+7/8/2013 - 15:21:52: Id: 1
+7/8/2013 - 15:21:52: Name: VSTA_Main
+7/8/2013 - 15:21:52: JavaGateway.Login.GetSubscriberId - 0.00 seconds: Timings : FINEST
+
+7/8/2013 - 15:21:52: JavaGateway.Login.GetSubscriberId - 0.00 seconds
+7/8/2013 - 15:21:52: Is from threadpool: False
+7/8/2013 - 15:21:52: Is background thread: True
+7/8/2013 - 15:21:52: Id: 1
+7/8/2013 - 15:21:52: Name: VSTA_Main
+7/8/2013 - 15:21:52: Is from threadpool: False
+7/8/2013 - 15:21:52: Is background thread: True
+7/8/2013 - 15:21:52: Id: 1
+7/8/2013 - 15:21:52: Name: VSTA_Main
+7/8/2013 - 15:21:52: User is not logged in.
+7/8/2013 - 15:22:49: Is from threadpool: False
+7/8/2013 - 15:22:49: Is background thread: True
+7/8/2013 - 15:22:49: Id: 1
+7/8/2013 - 15:22:49: Name: VSTA_Main
+7/8/2013 - 15:22:49: Looking for the following class: com/refworks/bibliotech/LoginGateway
+7/8/2013 - 15:22:49: Trying to get isServerAvailable
+7/8/2013 - 15:22:49: Got it
+7/8/2013 - 15:22:50: JavaGateway.Login.IsServerAvailable() - 0.22 seconds: Timings : FINEST
+
+7/8/2013 - 15:22:50: JavaGateway.Login.IsServerAvailable() - 0.22 seconds
+7/8/2013 - 15:22:50: Is from threadpool: False
+7/8/2013 - 15:22:50: Is background thread: True
+7/8/2013 - 15:22:50: Id: 1
+7/8/2013 - 15:22:50: Name: VSTA_Main
+7/8/2013 - 15:22:50: Is from threadpool: False
+7/8/2013 - 15:22:50: Is background thread: True
+7/8/2013 - 15:22:50: Id: 1
+7/8/2013 - 15:22:50: Name: VSTA_Main
